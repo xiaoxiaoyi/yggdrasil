@@ -1,0 +1,12 @@
+<!-- XML Map Exemple-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map player="lol">
+    <game_object id="lol" x="" y="" w="" h="" angle="" />
+
+    <chain loop="true">
+        <vertex x="" y="" />
+        <vertex x="" y="" />
+        <vertex x="" y="" />
+    </chain>
+</map>

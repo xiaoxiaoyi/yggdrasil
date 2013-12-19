@@ -1,0 +1,32 @@
+<chunk>
+    <entity id="mob">
+        <component type="SpriteComponent"
+            name="sprite_test.xml">
+        </component>
+        
+        <component type="AnimationComponent"
+            animation="stand">
+        </component>
+        
+        <component type="PhysicComponent"
+            static="false"
+            x="3"
+            y="2">
+        </component>
+    </entity>
+    
+    <entity id="decor">
+        <component type="PhysicComponent"
+            static="true" 
+            loop="false">
+            <vertices>
+                <vertex x="-5" y="5" />
+                <vertex x="-5" y="-0.7" />
+                <vertex x="-4.5" y="-0.7" />
+                <vertex x="-4" y="-0.6" />
+                <vertex x="-3.5" y="-0.7" />
+                <vertex x="5" y="-0.7" />
+            </vertices>
+        </component>
+    </entity>
+</chunk>

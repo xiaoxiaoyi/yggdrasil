@@ -1,0 +1,17 @@
+<template name="Mob1">
+	<component type="PositionComponent">
+	</component>
+
+	<component type="PhysicComponent">
+	</component>
+	
+	<component type="RenderComponent">
+	</component>
+	
+	<component type="SpriteComponent">
+	</component>
+	
+	<component type="AnimationComponent">
+	</component>
+	
+</template>

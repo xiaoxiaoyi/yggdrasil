@@ -1,0 +1,54 @@
+<sprite image="sprites/Arthur.png" transparentColor="247 0 247">
+    <animation name="stand">
+        <frame x="7" y="157" w="57" h="64" duration="1" centerX="0.5" centerY="0.5">
+            <box type="body">
+                <vertex x="-0.1" y="-0.2" />
+                <vertex x="0.1" y="-0.2" />
+                <vertex x="0.1" y="0.2" />
+                <vertex x="-0.1" y="0.2" />
+            </box>
+            <box type="hurt">
+                <vertex x="-0.1" y="-0.2" />
+                <vertex x="0.1" y="-0.2" />
+                <vertex x="0.1" y="0.2" />
+                <vertex x="-0.1" y="0.2" />
+            </box>
+        </frame>
+    </animation>
+
+    <animation name="jump">
+        <frame x="294" y="460" w="78" h="55" duration="1" centerX="0.3" centerY="0.5">
+            <box type="body">
+                <vertex x="-0.1" y="-0.1" />
+                <vertex x="0.1" y="-0.1" />
+                <vertex x="0.1" y="0.3" />
+                <vertex x="-0.1" y="0.3" />
+            </box>
+        </frame>
+    </animation>
+    
+    <animation name="attack">
+        <frame x="65" y="361" w="62" h="78" duration="0.1" centerX="0.5" centerY="0.5">
+            <box type="body">
+                <vertex x="-0.1" y="-0.2" />
+                <vertex x="0.1" y="-0.2" />
+                <vertex x="0.1" y="0.2" />
+                <vertex x="-0.1" y="0.2" />
+            </box>
+        </frame>
+        <frame x="135" y="364" w="106" h="75" duration="0.1" centerX="0.2" centerY="0.5">
+            <box type="body">
+                <vertex x="-0.1" y="-0.2" />
+                <vertex x="0.1" y="-0.2" />
+                <vertex x="0.1" y="0.2" />
+                <vertex x="-0.1" y="0.2" />
+            </box>
+            <box type="strike">
+                <vertex x="0.0" y="-0.1" />
+                <vertex x="0.3" y="-0.1" />
+                <vertex x="0.3" y="0.0" />
+                <vertex x="0.0" y="0.0" />
+            </box>
+        </frame>
+    </animation>
+</sprite>

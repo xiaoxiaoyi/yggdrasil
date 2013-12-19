@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SpriteEditorWindow</class>
+ <widget class="QMainWindow" name="SpriteEditorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSprite">
+    <property name="title">
+     <string>Sprite</string>
+    </property>
+    <addaction name="actionNewSprite"/>
+    <addaction name="actionOpenSprite"/>
+    <addaction name="actionSaveSprite"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpenImage"/>
+   </widget>
+   <widget class="QMenu" name="menuAnimation">
+    <property name="title">
+     <string>Animation</string>
+    </property>
+    <addaction name="actionNewAnim"/>
+   </widget>
+   <widget class="QMenu" name="menuFrame">
+    <property name="title">
+     <string>Frame</string>
+    </property>
+    <addaction name="actionNewFrame"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSwitch_to_Map_Editor"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSprite"/>
+   <addaction name="menuAnimation"/>
+   <addaction name="menuFrame"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNewSprite">
+   <property name="text">
+    <string>Nouveau</string>
+   </property>
+  </action>
+  <action name="actionOpenSprite">
+   <property name="text">
+    <string>Ouvrir</string>
+   </property>
+  </action>
+  <action name="actionSaveSprite">
+   <property name="text">
+    <string>Enregistrer</string>
+   </property>
+  </action>
+  <action name="actionOpenImage">
+   <property name="text">
+    <string>Choisir image</string>
+   </property>
+  </action>
+  <action name="actionNewAnim">
+   <property name="text">
+    <string>Nouvelle</string>
+   </property>
+  </action>
+  <action name="actionNewFrame">
+   <property name="text">
+    <string>Nouvelle</string>
+   </property>
+  </action>
+  <action name="actionSwitch_to_Map_Editor">
+   <property name="text">
+    <string>&amp;Switch to Map Editor</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

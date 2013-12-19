@@ -1,4 +1,0 @@
-yggdrasil
-=========
-
-game + editor project
